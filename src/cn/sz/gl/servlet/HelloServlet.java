@@ -17,7 +17,7 @@ public class HelloServlet extends HttpServlet {
 
 	public void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		
+		System.out.println("dopost");
 		HttpSession session = request.getSession();
 		ServletContext application = request.getServletContext();
 		
